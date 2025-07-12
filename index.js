@@ -22,20 +22,21 @@ async function fetchUsername(userID) {
     
     cardup.innerHTML=` <img src=${result.avatar_url} alt="" class="img" id="avatar">
                 <div class="profileInfo">
-                    <p>${result.name}</p>
+                    <p class="name">${result.name}</p>
                     <p>${result.bio}</p>
                 </div>`
     section1.innerHTML=`<div class="box1">
-                        <div><p>Follower</p></div>
+                        <div class="followers"><p>Follower</p></div>
                         <div><p>${result.followers}</p></div>
                     </div>
                     <div class="box2">
-                        <div><p>Following</p></div>
+                        <div class="following"><p>Following</p></div>
                         <div><p>${result.following}</p></div>
                     </div>
                     <div class="box3">
-                        <div><p>Repo</p></div>
+                        <div class="repo"><p>Repo</p></div>
                         <div><p>${result.public_repos}</p></div>
                     </div>`
     viewprofilebtn.style.display = "inline-block";
 }
+
