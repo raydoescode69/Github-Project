@@ -177,3 +177,23 @@ body {
   gap: 10px;
   animation: fadeIn 1s ease;
 }
+
+.name{
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.followers{
+  font-weight: bolder;
+  font-size: large;
+}
+
+.following{
+  font-weight: bolder;
+  font-size: large;
+}
+
+.repo{
+  font-weight: bolder;
+  font-size: large;
+}
